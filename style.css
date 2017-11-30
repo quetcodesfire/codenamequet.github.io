@@ -1,0 +1,19 @@
+body {
+   /*display: flex;*/
+   justify-content: center;
+}
+nav {
+}
+.navbar-brand {
+    
+}
+.navbar-right {
+    text-align: right;
+    list-style-type: none;
+}
+.me {
+    border-radius: 100px;
+}
+.technical-skills{
+    justify-content: center;
+}

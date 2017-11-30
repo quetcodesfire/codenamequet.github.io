@@ -1,0 +1,121 @@
+<!doctype html>
+
+<head>
+    
+    <title>Whitney Bee Early Learning Center</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="nav-logo" href="#home"><img src="Whitney-Bee-RGB-Logo-250px.jpg" class="img-responsive"></a>
+    <ul class="nav navbar-nav">
+        <li class="active white-text"><a href="#home">Home</a></li>
+        <li class="white-text"><a href="#about">About</a></li>
+        <li class="white-text"><a href="#services">Services</a></li> 
+        <li class="white-text"><a href="#gallery">Gallery</a></li>
+        <li class="white-text"><a href="#contact">Contact</a></li>
+        <li class="white-text"><a href="#podcast">Podcast</a></li>
+    </ul>
+            </div>
+        </div>
+    </nav>
+<div class="container-fluid">
+	<div class="row">
+    	<div class="col-xs-12 well well-xs" id="info-form">
+            <form action="emailme.php" method="post">
+    <h2 class="text-center primary-text">Request More Info From Whitney Bee Early Learning Center</h2>
+    <input type="checkbox" name="care" value="all-day"> All Day Care&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="checkbox" name="care" value="infant-care"> Infant Care<br/>    
+    <input type="checkbox" name="care" value="before-and-after-care"> Before and After Care
+    <input type="checkbox" name="care" value="parent-night-out-care"> Parent Night Out Care<br/>
+    <input type="checkbox" name="care" value="pm-care"> PM Care&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="checkbox" name="care" value="weekend-care"> Weekend Care<br/>
+    <input type="checkbox" name="care" value="drop-in-care"> Drop In Care<br/><br/>
+    Child's Name
+    <input class="form-control" type="text" id="name" name="childs-name" placeholder="Child's Name"/>
+    Phone Number
+    <input class="form-control" type="email" id="mail" name="phone-number" placeholder="Phone Number"/>
+    Email Address
+    <input class="form-control" type="email" id="mail" name="email-address" placeholder="Email Address"/><br/>
+    What is your childs age?<br/>
+    <input type="radio" name="age" value="infant"> Infant 4mths - 12 mths<br/>
+    <input type="radio" name="age" value="todddler"> Toddler 12mths - 18mths<br/>
+    <input type="radio" name="age" value="2-3"> Two-Three<br/>
+    <input type="radio" name="age" value="infant"> Four and over<br/><br/>
+    How often will you be needing care?<br/>
+    <input type="radio" name="days" value="7"> All week<br/>
+    <input type="radio" name="days" value="6"> 6 Days a week<br/>
+    <input type="radio" name="days" value="5"> 5 Days a week<br/>
+    <input type="radio" name="days" value="4"> 4 Days a week<br/>
+    <input type="radio" name="days" value="3"> 3 Days a week<br/><br/>
+    What timeframe will you need care? Be as specific as possible.<br>
+    <input class="form-control" type="text" id="timeframe" name="timeframe" placeholder="Your answer"/><br/>
+    If interested in "Drop-in" care, please specify the dates/times you are interested in attending.
+    <input class="form-control" type="text" id="drop-in" name="drop-in" placeholder="Your answer"/></form><br/>
+    How did you hear about us?
+    <input class="form-control" type="text" id="hear-about-us" name="hear-about-us" placeholder="Your answer"/><br/>
+    Please place any additional comments in the box below.  
+    <textarea class="form-control" rows="10" cols="30" id="comments" name="user_message" placeholder="Additional Comments"></textarea><br/>
+
+    <button class="btn btn-md btn-primary center-block" type="submit">Send your message</button>
+            </form>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4 text-left white-text join-us">
+        <a href="join-us.html">Join Our Team</a>
+        </div>
+    </div>
+</div>
+<!-- Contact Form -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4 col-xs-offset-4 contact-form text-center">
+        <form action="emailme.php" method="post">
+    <input class="form-control" type="text" id="name" name="user_name" placeholder="Your Name"/>
+    <input class="form-control" type="email" id="mail" name="user_email" placeholder="Your Email"/>
+    <textarea class="form-control" rows="10" cols="30" id="message" name="user_message" placeholder="Message"></textarea>
+
+    <button class="btn btn-md btn-block btn-primary" type="submit">Send your message</button>
+            </form>
+            </div>
+        </div>
+</div>
+<!-- Map Links -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4 col-xs-offset-8 text-right map-links white-text">
+        <ul class="list-unstyled white-text">
+        <li class="white-text" id="footer-home"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li> 
+        <li><a href="#podcast">Podcast</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+</div>
+<div class="social-media-logos text-center">
+    <a href="https://www.facebook.com/whitneyBEEelc" target="_blank"><img src="fb-square-32.png" alt="Become a fan on Facebook"></a>
+    <a href="https://www.twitter.com/whitneyBEEelc" target="_blank"><img src="twitter-square-32.png" alt="Follow me on Twitter"></a>
+    <a href="https://www.instagram.com/whitneybeeearlylearning" target="_blank"><img src="instagram-logo-32.png" alt="Follow me on Instagram"></a>
+</div>
+<div class="copyright text-center white-text">
+<p>Whitney Bee Early Learning Center &copy 2016</p>
+</div>
+</footer>
+
+</body>
+
+</html>

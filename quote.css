@@ -1,0 +1,70 @@
+.backcolor{
+       image-rendering: auto
+     }
+ .qbox{
+        opacity: 0.8;
+        border-radius: 5px;
+        min-width: 600px !important;
+        max-height: fit-content;
+        min-width: fit-content;
+        max-width: 800px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin-top: 200px;
+        color: white;
+        padding-top: center;
+        display: inline-block;
+    }
+    
+    #author{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      text-align: center;
+      margin-left:10px;
+      margin-right:10px;
+      opacity: .5;
+        
+    }
+    #quote{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      text-align: center;
+      margin-left:10px;
+      margin-right:10px;
+      opacity: .5;
+    }
+    
+    #newquote{
+      height:38px;
+      border:none;
+      border-radius:6px;
+      color: white;
+      background-color: #001f3f ;
+      outline:none;
+      font-size:1em;
+      padding: 8px 18px 8px 18px;
+      margin-top:20px;
+      margin-right:30px;
+      margin-bottom:20px; 
+      float : right;
+      color: white;
+    }
+    #tweet{
+      height:38px;
+      border:none;
+      border-radius:6px;
+      color: white;
+      background-color: #001f3f ;
+      outline:none;
+      font-size:2em;
+      margin-top:20px;
+      margin-left:30px;
+      margin-bottom:20px; 
+      float : left;
+      z-index:2;
+      color: white;
+    }
+    
