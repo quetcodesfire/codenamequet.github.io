@@ -8,8 +8,11 @@
     padding: 5px;
     color: black;
 }
-.navbar-content:hover {
+.navbar-content a:hover {
     color: blue;
+}
+.navbar-content a:visited {
+    color: black;
 }
 .navbar-content img {
     margin: 0;
@@ -38,4 +41,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+h1 {
+    font-size: 48px
+}
+h2 {
+    font-size: 32px;
+}
+.contact-form {
+    margin: 0 auto;
+    width: 300px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.btn-primary {
+    background: blue;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
