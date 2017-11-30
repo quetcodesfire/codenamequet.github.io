@@ -6,9 +6,13 @@
 } 
 .navbar-content a {
     padding: 5px;
+    color: black;
 }
-.navbar-content p {
-    text-align: left;
+.navbar-content:hover {
+    color: blue;
+}
+.navbar-content img {
+    margin: 0;
 }
 .me {
     border-radius: 100px;
