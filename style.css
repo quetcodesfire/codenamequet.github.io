@@ -1,19 +1,37 @@
-body {
-   /*display: flex;*/
-   justify-content: center;
-}
-nav {
-}
-.navbar-brand {
-    
-}
-.navbar-right {
-    text-align: right;
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
+    flex-direction: row;
+} 
+.navbar-content a {
+    padding: 5px;
+}
+.navbar-content p {
+    text-align: left;
 }
 .me {
     border-radius: 100px;
 }
-.technical-skills{
+.technical-skills {
     justify-content: center;
+}
+.profile-pic {
+    display: flex;
+    justify-content: center;
+}
+.bio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.technical-skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
