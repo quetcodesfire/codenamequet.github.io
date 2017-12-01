@@ -42,6 +42,10 @@
     flex-direction: column;
     align-items: center;
 }
+.whitneybee {
+    height: 300px;
+    width: 500px;
+}
 h1 {
     font-size: 48px
 }
