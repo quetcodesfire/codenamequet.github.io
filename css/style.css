@@ -1,24 +1,177 @@
-/* .nav {
-    background-color: blue !important;
-} */
 .email-icon {
     padding-left: 10px;
-    /* height: 50px;
-    width: 50px; */
 }
 .github-icon {
     padding-left: 10px;
-    /* height: 50px;
-    width: 50px; */
 }
 .twitter-icon {
     padding-left: 10px;
-    /* height: 40px;
-    width: 40px; */
 }
 .linkedin-icon {
     padding-left: 10px;
-    /* height: 35px;
-    width: 35px; */
 }
-
+.resume-icon {
+    display: block;
+    margin: 0 auto;
+}
+.html {
+    background-image: url('../img/html-black.png');
+    background-size: cover;
+}
+.html:hover {
+    background-image: url('../img/html-orange.png');
+    background-size: cover;
+}
+.css {
+    background-image: url('../img/css-black.png');
+    background-size: cover;
+}
+.css:hover {
+    background-image: url('../img/css-blue.png');
+    background-size: cover;
+}
+.js {
+    background-image: url('../img/js-black.png');
+    background-size: cover;
+}
+.js:hover {
+    background-image: url('../img/js-yellow.png');
+    background-size: cover;
+}
+.jquery {
+    background-image: url('../img/jquery-black.png');
+    background-size: cover;
+}
+.jquery:hover {
+    background-image: url('../img/jquery-blue.png');
+    background-size: cover;
+}
+.react {
+    background-image: url('../img/react-black.png');
+    background-size: cover;
+}
+.react:hover {
+    background-image: url('../img/react-blue.png');
+    background-size: cover;
+}
+.ruby {
+    background-image: url('../img/ruby-black.png');
+    /* background: black; */
+    background-size: cover;
+}
+.ruby:hover {
+    background-image: url('../img/ruby-red.png');
+    background-size: cover;
+}
+.rails {
+    background-image: url('../img/rails-black.png');
+    background-size: cover;
+}
+.rails:hover {
+    background-image: url('../img/rails-red.png');
+    background-size: cover;
+}
+.node {
+    background-image: url('../img/nodejs-black.png');
+    background-size: cover;
+}
+.node:hover {
+    background-image: url('../img/nodejs-green.png');
+    background-size: cover;
+}
+.express {
+    background-image: url('../img/express-circle.png');
+    background-size: cover;
+}
+.express:hover {
+    background-image: url('../img/expressjs-circle.png');
+    background-size: cover;
+}
+.python {
+    background-image: url('../img/python-black.png');
+    background-size: cover;
+}
+.python:hover {
+    background-image: url('../img/python-blue-yellow.png');
+    background-size: cover;
+}
+.django {
+    background-image: url('../img/django-black.png');
+    background-size: cover;
+}
+.django:hover {
+    background-image: url('../img/django-black.png');
+    background-size: cover;
+}
+.bootstrap {
+    background-image: url('../img/bootstrap-black.png');
+    background-size: cover;
+}
+.bootstrap:hover {
+    background-image: url('../img/bootstrap-purple.png');
+    background-size: cover;
+}
+.materialize {
+    background-image: url('../img/materialize-black.png');
+    background-size: cover;
+}
+.materialize:hover {
+    background-image: url('../img/materialize-red.png');
+    background-size: cover;
+}
+.sql {
+    background-image: url('../img/db-black.png');
+    background-size: cover
+}
+.sql:hover {
+    background-image: url('../img/db-grey.png');
+    background-size: cover;
+}
+.postgresql {
+    background-image: url('../img/postgresql-black.png');
+    background-size: cover;
+}
+.postgresql:hover {
+    background-image: url('../img/postgresql-blue.png');
+    background-size: cover;
+}
+.mongo {
+    background-image: url('../img/mongodb-black.png');
+    background-size: cover;
+}
+.mongo:hover {
+    background-image: url('../img/mongodb-green.png');
+    background-size: cover;
+}
+.firebase {
+    background-image: url('../img/firebase-black.png');
+    background-size: cover;
+}
+.firebase:hover {
+    background-image: url('../img/firebase-yellow.png');
+    background-size: cover;
+}
+.git {
+    background-image: url('../img/git-black.png');
+    background-size: cover;
+}
+.git:hover {
+    background-image: url('../img/git-orange.png');
+    background-size: cover;
+}
+.github {
+    background-image: url('../img/github-black.png');
+    background-size: cover;
+}
+.github:hover {
+    background-image: url('../img/github-blue.png');
+    background-size: cover;
+}
+.heroku {
+    background-image: url('../img/heroku-black.png');
+    background-size: cover;
+}
+.heroku:hover {
+    background-image: url('../img/heroku-purple.png');
+    background-size: cover;
+}
