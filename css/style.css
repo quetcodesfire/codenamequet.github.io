@@ -1,3 +1,9 @@
+.simon {
+    max-height: 235px;
+}
+.home {
+    height: 100vh;
+}
 .email-icon {
     padding-left: 10px;
 }
@@ -55,7 +61,7 @@
     background-size: cover;
 }
 .ruby {
-    background-image: url('../img/ruby-black.png');
+    background-image: url('../img/ruby-black-icon2.png');
     /* background: black; */
     background-size: cover;
 }
@@ -175,3 +181,35 @@
     background-image: url('../img/heroku-purple.png');
     background-size: cover;
 }
+/* .email-icon {
+    background-image: url('../img/mail-black.png');
+    background-size: cover;
+}
+.email-icon:hover {
+    background-image: url('../img/email-black-icon.png');
+    background-size: cover;
+}
+.github-icon {
+    background-image: url('../img/github-black-50.png');
+    background-size: 150px cover;
+}
+.github-icon:hover {
+    background-image: url('../img/github-blue-icon.png');
+    background-size: cover;
+}
+.twitter-icon {
+    background-image: url('../img/twitter-black.png');
+    background-size: cover;
+}
+.twitter-icon:hover {
+    background-image: url('../img/twitter-blue-icon.png');
+    background-size: cover;
+}
+.linkedin-icon {
+    background-image: url('../img/linkedin-black.png');
+    background-size: cover;
+}
+.linkedin-icon:hover {
+    background-image: url('../img/linkedin-blue-icon.png');
+    background-size: cover;
+} */
