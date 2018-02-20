@@ -50,6 +50,9 @@
   <section id="about" class="s12">
     <section class="about-me">
         <h1 class="center">About Me</h1>
+        <div class="me center-align">
+            <img src="img/marquet.png" alt="marquet reid" />
+        </div>
         <div class="row">
             <p class="col s12 m10 offset-m1">I am currently attending a web developement bootcamp at General Assembly DC. Before attending General Assembly I spent my spare time online and teaching myself how to code, and have become profecient in several languages and frameworks. After graduating from General Assembly I will be looking for opportunities to secure a position as a developer, working on personal passion projects, and the chance to give back and work on some great open source projects.</p>
         </div>
@@ -66,8 +69,8 @@
     <section class="projects">
         <!-- This is where I'm going to put cards with app/site screen shots and descriptions -->
         <div class="row">
-            <div class="col s12 m4">
-                <div class="card">
+            <div class="col s12 m4 wbelc-card">
+                <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="img/whitneybee.png">
                     </div>
@@ -77,12 +80,14 @@
                     </div>
                     <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Whitney Bee Early Learning Center<i class="material-icons right">close</i></span>
-                    <p>Created a website for a local DC based early learning center.<br /> Technologies used: HTML, CSS, and Bootstrap</p>
+                    <p>Created a website for a local DC based early learning center.</p>
+                    <p class="center-align"><img src="img/html-orange-icon.png" /><img src="img/css-blue-icon.png" /><img src="img/js-yellow-icon.png" /></p>
+                    <h5 class="center-align">HTML CSS Bootstrap</h5>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m4">
-                    <div class="card">
+            <div class="col s12 m4 simon-card">
+                    <div class="card medium">
                         <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator simon" src="img/simon.png">
                         </div>
@@ -92,12 +97,14 @@
                         </div>
                         <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Simon<i class="material-icons right">close</i></span>
-                        <p>Made a copy of the classic electronic game Simon as my first project at General Assembly.<br /> Technologies used: HTML, CSS, and Javascript.</p>
+                        <p>Made a copy of the classic electronic game Simon as my first project at General Assembly.</p>
+                        <p class="center-align"><img src="img/html-orange-icon.png" /><img src="img/css-blue-icon.png" /><img src="img/js-yellow-icon.png" /></p>
+                        <p class="center-align">HTML CSS Javascript</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4">
-                        <div class="card">
+                <div class="col s12 m4 styleboard-card">
+                        <div class="card medium">
                             <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="img/styleboard.png">
                             </div>
@@ -107,12 +114,19 @@
                             </div>
                             <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">StyleBoard<i class="material-icons right">close</i></span>
-                            <p>Developed a virtual closet where users can make decisions on what clothing to wear and buy.<br /> Technologies used: MongoDB, ExpressJS, React, and NodeJS.</p>
+                            <p>Developed a virtual closet where users can make decisions on what clothing to wear and buy.</p>
+                            <p class="center-align">
+                                <img src="img/mongodb-green-icon.png" />
+                                <img src="img/expressjs-circle-icon.png" />
+                                <img src="img/react-blue-icon.png" />
+                                <img src="img/nodejs-green-icon.png" />
+                            </p>
+                            <h6 class="center-align">Mongo Express.js React Node.js</h6>
                             </div>
                         </div>
                     </div>
-                <div class="col s12 m4">
-                        <div class="card">
+                <div class="col s12 m4 offset-m4 beer-club-card">
+                        <div class="card medium">
                             <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="img/beer-club.png">
                             </div>
@@ -165,10 +179,12 @@
     <div class="row">
         <section class="email col s12 m3">
             <p class="left">Email me: hello@marquetreid.com</p>
-            <a href="#"><img class="email-icon" src="img/mail-black.png" alt="email" /></a>
+            <!-- <a class="email-contact" href="#"></a> -->
+            <a href="#"><img class="email-contact" src="img/mail-black.png" alt="email" /></a>
         </section>
         <section class="github-contact col s12 m3">
             <p class="left">Check out my code on github</p>
+            <!-- need to match this with the icon -->
             <a href="http://github.com/codenamequet"><img class="github-icon" src="img/github-black-50.png" alt="github" /></a>
         </section>
         <section class="twitter col s12 m3">
@@ -177,7 +193,7 @@
         </section>
         <section class="linkedin col s12 m3">
             <p class="left">Connect with me on Linkedin</p>
-            <a href="http://linkedin.com/in/marquetreid"><img class="linkedin-icon" src="img/linkedin-black-icon.png" alt="linkedin" /></a>
+            <a href="http://linkedin.com/in/marquetreid"><img class="linkedin-icon" src="img/linkedin-circle.png" alt="linkedin" /></a>
         </section>
         <section class="resume col s12 m3 offset-m9" id="resume">
             <p class="left">Don't forget to grab a copy of my resume!</p>
@@ -192,7 +208,7 @@
             <div class="col l6 s12">
               <h5 class="white-text">Marquet Reid</h5>
               <h6 class="white-text">Full-Stack Web Developer</h6>
-              <img src="favicon.ico" alt="my logo" />
+              <img class="footer-logo img-responsive" src="img/marquet-bt.png" alt="my logo" />
               <p class="grey-text text-lighten-4"></p>
             </div>
             <div class="col l4 offset-l2 s12">
@@ -210,10 +226,10 @@
         <div class="footer-copyright">
           <div class="container">
           © 2018 Marquet Reid | All Rights Reserved
-          <a href="http://linkedin.com/in/marquetreid"><img class="linkedin-icon right" src="img/linkedin-black-icon.png" alt="linkedin" /></a>
-          <a href="http://twitter.com/codenamequet"><img class="twitter-icon right" src="img/twitter-black.png" alt="twitter" /></a>
-          <a href="http://github.com/codenamequet"><img class="github-icon right" src="img/github-black-50.png" alt="github" /></a>
-          <a href="#"><img class="email-icon right" src="img/mail-black.png" alt="email" /></a>
+          <a href="http://linkedin.com/in/marquetreid"><img class="linkedin-icon right" src="img/linkedin-circle-icon.png" alt="linkedin" /></a>
+          <a href="http://twitter.com/codenamequet"><img class="twitter-icon right" src="img/twitter-black-icon.png" alt="twitter" /></a>
+          <a href="http://github.com/codenamequet"><img class="github-icon right" src="img/github-black-icon.png" alt="github" /></a>
+          <a href="#"><img class="email-icon right" src="img/mail-black-icon.png" alt="email" /></a>
           
           
           
