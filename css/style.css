@@ -1,5 +1,5 @@
 .simon {
-    max-height: 235px;
+    height: 235px;
 }
 .home {
     height: 100vh;
@@ -72,6 +72,7 @@
 .rails {
     background-image: url('../img/rails-black.png');
     background-size: cover;
+    max-height: 409px;
 }
 .rails:hover {
     background-image: url('../img/rails-red.png');
@@ -181,6 +182,26 @@
     background-image: url('../img/heroku-purple.png');
     background-size: cover;
 }
+/* .email-contact {
+    background-image: url('../img/heroku-purple.png');
+    background-size: cover;
+} */
+.footer-logo {
+    height: 150px;
+    width: 150px;
+}
+/* .wbelc-card {
+    height: 265px; 
+}
+.simon-card {
+    height: 265px;
+}
+.styleboard-card {
+    height: 265px;
+}
+.beer-club-card {
+    height: 265px;
+} */
 /* .email-icon {
     background-image: url('../img/mail-black.png');
     background-size: cover;
