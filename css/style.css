@@ -70,9 +70,8 @@
     background-size: cover;
 }
 .rails {
-    background-image: url('../img/rails-black.png');
+    background-image: url('../img/rails-black-basic.png');
     background-size: cover;
-    max-height: 409px;
 }
 .rails:hover {
     background-image: url('../img/rails-red.png');
@@ -107,7 +106,7 @@
     background-size: cover;
 }
 .django:hover {
-    background-image: url('../img/django-black.png');
+    background-image: url('../img/django-green.png');
     background-size: cover;
 }
 .bootstrap {
@@ -123,8 +122,10 @@
     background-size: cover;
 }
 .materialize:hover {
-    background-image: url('../img/materialize-red.png');
+    background-image: url('../img/materialize-color.png');
     background-size: cover;
+    max-height: 200px;
+    max-width: 200px;
 }
 .sql {
     background-image: url('../img/db-black.png');
