@@ -4,6 +4,12 @@
 .home {
     height: 100vh;
 }
+.about-me {
+    height: 100vh;
+}
+.skills {
+    height: 100vh;
+}
 .email-icon {
     padding-left: 10px;
 }
