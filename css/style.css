@@ -1,3 +1,6 @@
+p {
+    font-size: 18px;
+}
 .simon {
     height: 235px;
 }
@@ -8,24 +11,88 @@
     height: 100vh;
 }
 .skills {
-    height: 100vh;
+    height: 70vh;
 }
-.email-icon {
-    padding-left: 10px;
+.scroll {
+    margin-bottom: -75px;
 }
-.github-icon {
-    padding-left: 10px;
+.resume {
+    background-image: url('../MarquetReidDevResume.pdf');
 }
-.twitter-icon {
-    padding-left: 10px;
+
+/* Working on changing contact icons */
+.emailIcon {
+    background-image: url('../img/mail-black.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    display: inline-block;
 }
-.linkedin-icon {
-    padding-left: 10px;
+.emailIcon:hover {
+    background-image: url('../img/email-blue-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    display: inline-block;
+}
+.githubIcon {
+    background-image: url('../img/github-black-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.githubIcon:hover {
+    background-image: url('../img/github-blue-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.twitterIcon {
+    background-image: url('../img/twitter-black.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.twitterIcon:hover {
+    background-image: url('../img/twitter-blue-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.linkedinIcon {
+    background-image: url('../img/linkedin-circle.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.linkedinIcon:hover {
+    background-image: url('../img/linkedin-blue-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
 }
 .resume-icon {
-    display: block;
-    margin: 0 auto;
+    background-image: url('../img/resume-black.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
 }
+.resume-icon:hover {
+    background-image: url('../img/resume-blue-icon.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+/* Skills Icons */
 .html {
     background-image: url('../img/html-black.png');
     background-size: cover;
@@ -68,7 +135,6 @@
 }
 .ruby {
     background-image: url('../img/ruby-black-icon2.png');
-    /* background: black; */
     background-size: cover;
 }
 .ruby:hover {
@@ -189,55 +255,15 @@
     background-image: url('../img/heroku-purple.png');
     background-size: cover;
 }
-/* .email-contact {
-    background-image: url('../img/heroku-purple.png');
-    background-size: cover;
+.skills-box {
+    border: black solid 1px;
+    padding-left: 200px;
+    margin-left: 200px;
+}
+/* .skills-box:hover {
+    background: blue;
 } */
 .footer-logo {
     height: 150px;
     width: 150px;
 }
-/* .wbelc-card {
-    height: 265px; 
-}
-.simon-card {
-    height: 265px;
-}
-.styleboard-card {
-    height: 265px;
-}
-.beer-club-card {
-    height: 265px;
-} */
-/* .email-icon {
-    background-image: url('../img/mail-black.png');
-    background-size: cover;
-}
-.email-icon:hover {
-    background-image: url('../img/email-black-icon.png');
-    background-size: cover;
-}
-.github-icon {
-    background-image: url('../img/github-black-50.png');
-    background-size: 150px cover;
-}
-.github-icon:hover {
-    background-image: url('../img/github-blue-icon.png');
-    background-size: cover;
-}
-.twitter-icon {
-    background-image: url('../img/twitter-black.png');
-    background-size: cover;
-}
-.twitter-icon:hover {
-    background-image: url('../img/twitter-blue-icon.png');
-    background-size: cover;
-}
-.linkedin-icon {
-    background-image: url('../img/linkedin-black.png');
-    background-size: cover;
-}
-.linkedin-icon:hover {
-    background-image: url('../img/linkedin-blue-icon.png');
-    background-size: cover;
-} */
