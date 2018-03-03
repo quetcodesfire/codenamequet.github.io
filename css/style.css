@@ -255,15 +255,141 @@ p {
     background-image: url('../img/heroku-purple.png');
     background-size: cover;
 }
+
+/* Skills Box hover options */
+
 .skills-box {
     border: black solid 1px;
     padding-left: 200px;
     margin-left: 200px;
 }
-/* .skills-box:hover {
+.html-box:hover {
+    background: orange;
+}
+.css-box:hover {
     background: blue;
-} */
+}
+.js-box:hover {
+    background: yellow;
+}
+.jquery-box:hover {
+    background: blue;
+}
+.react-box:hover {
+    background: blue;
+}
+.ruby-box:hover {
+    background: red;
+}
+.rails-box:hover {
+    background: red;
+}
+.nodejs-box:hover {
+    background: green;
+}
+.express-box:hover {
+    background: grey;
+}
+.python-box:hover {
+    background: yellow;
+}
+.django-box:hover {
+    background: green;
+}
+.bootstrap-box:hover {
+    background: purple;
+}
+.materialize-box:hover {
+    background: red;
+}
+.sql-box:hover {
+    background: grey;
+}
+.postgresql-box:hover {
+    background: blue;
+}
+.mongo-box:hover {
+    background: green;
+}
+.firebase-box:hover {
+    background: yellow;
+}
+.git-box:hover {
+    background: orange;
+}
+.github-box:hover {
+    background: blue;
+}
+.heroku-box:hover {
+    background: purple;
+}
 .footer-logo {
     height: 150px;
     width: 150px;
+}
+
+.carousel-item-name {
+    position: fixed;
+    right: 40%;
+    top: 90%;
+}
+.carousel-item-html {
+    position: fixed;
+    right: 38%;
+    top: 90%;
+}
+.carousel-item-js {
+    position: fixed;
+    right: 30%;
+    top: 90%;
+}
+.carousel-item-rails {
+    position: fixed;
+    right: 50%;
+    top: 90%;
+}
+.carousel-item-node {
+    position: fixed;
+    right: 38%;
+    top: 90%;
+}
+.carousel-item-express {
+    position: fixed;
+    right: 35%;
+    top: 90%;
+}
+.carousel-item-bootstrap {
+    position: fixed;
+    right: 20%;
+    top: 90%;
+}
+.carousel-item-materialize {
+    position: fixed;
+    right: 30%;
+    top: 90%;
+}
+.carousel-item-postgresql {
+    position: fixed;
+    right: 20%;
+    top: 90%;
+}
+.carousel-item-mongo {
+    position: fixed;
+    right: 30%;
+    top: 90%;
+}
+.carousel-item-firebase {
+    position: fixed;
+    right: 30%;
+    top: 90%;
+}
+.carousel-item-git {
+    position: fixed;
+    right: 43%;
+    top: 90%;
+}
+.carousel-item-heroku {
+    position: fixed;
+    right: 35%;
+    top: 90%;
 }
