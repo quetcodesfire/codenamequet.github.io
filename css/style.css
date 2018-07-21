@@ -1,0 +1,395 @@
+p {
+    font-size: 18px;
+}
+.simon {
+    height: 235px;
+}
+.home {
+    height: 100vh;
+}
+.about-me {
+    height: 100vh;
+}
+.skills {
+    height: 70vh;
+}
+.scroll {
+    margin-bottom: -75px;
+}
+.resume {
+    background-image: url('../MarquetReidDevResume.pdf');
+}
+
+/* Working on changing contact icons */
+.emailIcon {
+    background-image: url('../img/mail-black.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    display: inline-block;
+}
+.emailIcon:hover {
+    background-image: url('../img/email-blue-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    display: inline-block;
+}
+.githubIcon {
+    background-image: url('../img/github-black-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.githubIcon:hover {
+    background-image: url('../img/github-blue-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.twitterIcon {
+    background-image: url('../img/twitter-black.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.twitterIcon:hover {
+    background-image: url('../img/twitter-blue-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.linkedinIcon {
+    background-image: url('../img/linkedin-circle.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.linkedinIcon:hover {
+    background-image: url('../img/linkedin-blue-icon.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.resume-icon {
+    background-image: url('../img/resume-black.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.resume-icon:hover {
+    background-image: url('../img/resume-blue-icon.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+/* Skills Icons */
+.html {
+    background-image: url('../img/html-black.png');
+    background-size: cover;
+}
+.html:hover {
+    background-image: url('../img/html-orange.png');
+    background-size: cover;
+}
+.css {
+    background-image: url('../img/css-black.png');
+    background-size: cover;
+}
+.css:hover {
+    background-image: url('../img/css-blue.png');
+    background-size: cover;
+}
+.js {
+    background-image: url('../img/js-black.png');
+    background-size: cover;
+}
+.js:hover {
+    background-image: url('../img/js-yellow.png');
+    background-size: cover;
+}
+.jquery {
+    background-image: url('../img/jquery-black.png');
+    background-size: cover;
+}
+.jquery:hover {
+    background-image: url('../img/jquery-blue.png');
+    background-size: cover;
+}
+.react {
+    background-image: url('../img/react-black.png');
+    background-size: cover;
+}
+.react:hover {
+    background-image: url('../img/react-blue.png');
+    background-size: cover;
+}
+.ruby {
+    background-image: url('../img/ruby-black-icon2.png');
+    background-size: cover;
+}
+.ruby:hover {
+    background-image: url('../img/ruby-red.png');
+    background-size: cover;
+}
+.rails {
+    background-image: url('../img/rails-black-basic.png');
+    background-size: cover;
+}
+.rails:hover {
+    background-image: url('../img/rails-red.png');
+    background-size: cover;
+}
+.node {
+    background-image: url('../img/nodejs-black.png');
+    background-size: cover;
+}
+.node:hover {
+    background-image: url('../img/nodejs-green.png');
+    background-size: cover;
+}
+.express {
+    background-image: url('../img/express-circle.png');
+    background-size: cover;
+}
+.express:hover {
+    background-image: url('../img/expressjs-circle.png');
+    background-size: cover;
+}
+.python {
+    background-image: url('../img/python-black.png');
+    background-size: cover;
+}
+.python:hover {
+    background-image: url('../img/python-blue-yellow.png');
+    background-size: cover;
+}
+.django {
+    background-image: url('../img/django-black.png');
+    background-size: cover;
+}
+.django:hover {
+    background-image: url('../img/django-green.png');
+    background-size: cover;
+}
+.bootstrap {
+    background-image: url('../img/bootstrap-black.png');
+    background-size: cover;
+}
+.bootstrap:hover {
+    background-image: url('../img/bootstrap-purple.png');
+    background-size: cover;
+}
+.materialize {
+    background-image: url('../img/materialize-black.png');
+    background-size: cover;
+}
+.materialize:hover {
+    background-image: url('../img/materialize-color.png');
+    background-size: cover;
+    max-height: 200px;
+    max-width: 200px;
+}
+.sql {
+    background-image: url('../img/db-black.png');
+    background-size: cover
+}
+.sql:hover {
+    background-image: url('../img/db-grey.png');
+    background-size: cover;
+}
+.postgresql {
+    background-image: url('../img/postgresql-black.png');
+    background-size: cover;
+}
+.postgresql:hover {
+    background-image: url('../img/postgresql-blue.png');
+    background-size: cover;
+}
+.mongo {
+    background-image: url('../img/mongodb-black.png');
+    background-size: cover;
+}
+.mongo:hover {
+    background-image: url('../img/mongodb-green.png');
+    background-size: cover;
+}
+.firebase {
+    background-image: url('../img/firebase-black.png');
+    background-size: cover;
+}
+.firebase:hover {
+    background-image: url('../img/firebase-yellow.png');
+    background-size: cover;
+}
+.git {
+    background-image: url('../img/git-black.png');
+    background-size: cover;
+}
+.git:hover {
+    background-image: url('../img/git-orange.png');
+    background-size: cover;
+}
+.github {
+    background-image: url('../img/github-black.png');
+    background-size: cover;
+}
+.github:hover {
+    background-image: url('../img/github-blue.png');
+    background-size: cover;
+}
+.heroku {
+    background-image: url('../img/heroku-black.png');
+    background-size: cover;
+}
+.heroku:hover {
+    background-image: url('../img/heroku-purple.png');
+    background-size: cover;
+}
+
+/* Skills Box hover options */
+
+.skills-box {
+    border: black solid 1px;
+    padding-left: 200px;
+    margin-left: 200px;
+}
+.html-box:hover {
+    background: orange;
+}
+.css-box:hover {
+    background: blue;
+}
+.js-box:hover {
+    background: yellow;
+}
+.jquery-box:hover {
+    background: blue;
+}
+.react-box:hover {
+    background: blue;
+}
+.ruby-box:hover {
+    background: red;
+}
+.rails-box:hover {
+    background: red;
+}
+.nodejs-box:hover {
+    background: green;
+}
+.express-box:hover {
+    background: grey;
+}
+.python-box:hover {
+    background: yellow;
+}
+.django-box:hover {
+    background: green;
+}
+.bootstrap-box:hover {
+    background: purple;
+}
+.materialize-box:hover {
+    background: red;
+}
+.sql-box:hover {
+    background: grey;
+}
+.postgresql-box:hover {
+    background: blue;
+}
+.mongo-box:hover {
+    background: green;
+}
+.firebase-box:hover {
+    background: yellow;
+}
+.git-box:hover {
+    background: orange;
+}
+.github-box:hover {
+    background: blue;
+}
+.heroku-box:hover {
+    background: purple;
+}
+.footer-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.carousel-item-name {
+    position: fixed;
+    right: 40%;
+    top: 90%;
+}
+.carousel-item-html {
+    position: fixed;
+    right: 38%;
+    top: 90%;
+}
+.carousel-item-js {
+    position: fixed;
+    right: 30%;
+    top: 90%;
+}
+.carousel-item-rails {
+    position: fixed;
+    right: 50%;
+    top: 90%;
+}
+.carousel-item-node {
+    position: fixed;
+    right: 38%;
+    top: 90%;
+}
+.carousel-item-express {
+    position: fixed;
+    right: 35%;
+    top: 90%;
+}
+.carousel-item-bootstrap {
+    position: fixed;
+    right: 20%;
+    top: 90%;
+}
+.carousel-item-materialize {
+    position: fixed;
+    right: 30%;
+    top: 90%;
+}
+.carousel-item-postgresql {
+    position: fixed;
+    right: 20%;
+    top: 90%;
+}
+.carousel-item-mongo {
+    position: fixed;
+    right: 30%;
+    top: 90%;
+}
+.carousel-item-firebase {
+    position: fixed;
+    right: 30%;
+    top: 90%;
+}
+.carousel-item-git {
+    position: fixed;
+    right: 43%;
+    top: 90%;
+}
+.carousel-item-heroku {
+    position: fixed;
+    right: 35%;
+    top: 90%;
+}
