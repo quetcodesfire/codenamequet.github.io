@@ -1,0 +1,13 @@
+body {
+  background: yellow;
+  font-family: 'Merienda';
+  font-size: 24px;
+  text-align: center;
+}
+.message {
+  width: 90vw;
+  margin: 5vw;
+}
+.playlist {
+  text-align: center;
+}
