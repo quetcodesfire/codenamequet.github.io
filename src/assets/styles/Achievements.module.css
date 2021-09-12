@@ -5,8 +5,10 @@
 }
 .text {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  list-style-type: none;
 }
-.rotation > div > div > b {
-  color: red;
+.awardText{
+  text-align: center;
+  font-size: 1.8rem;
 }

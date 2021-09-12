@@ -16,11 +16,13 @@ export default function Navbar () {
         </Link>
       </section>
       <section className={styles.navLinks}>
-        <Link href="/about">About</Link>
-        <Link href="/portfolio">Portfolio</Link>
-        <Link href="/skills">Skills</Link>
-        <Link href="/contact">Contact</Link>
-        <Link href="/http://quetcodesfire.com">🔥</Link>
+        <Link href="#bio">About</Link>
+        <Link href="#portfolio">Portfolio</Link>
+        <Link href="#skills">Skills</Link>
+        <Link href="#achievements">Achievements</Link>
+        <Link href="#contact">Contact</Link>
+        <a href="https://docs.google.com/document/d/1mUP2YSwO5k1Qm1xPlhiLWBOvs31RtmM3XGHuuz6F01U/" rel="noreferrer" target="_blank">📥 Resume</a>
+        <a href="http://quetcodesfire.com" rel="noreferrer" target="_blank">🔥</a>
       </section>
     </div>
   );
