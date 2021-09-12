@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 
+import Card from './Card';
 import styles from '../assets/styles/Portfolio.module.css'
 
 export default function Portfolio() {
@@ -16,10 +17,18 @@ export default function Portfolio() {
         post more fun side projects and open source projects in the future.
       </p>
       <section className={styles.cardsContainer}>
-      <div className={styles.card}>Youtube</div>
-      <div className={styles.card}>Fogg</div>
-      <div className={styles.card}>Cirrus</div>
-      <div className={styles.card}>Stack-CMR</div>
+        <Card title="QuetCodesFire Youtube Channel" links={{name: 'Youtube Channel', url: 'http://youtube.com/quetcodesfire'}}>
+          My youtube channel dedicated to helping others learn in their coding journey as well as documenting what I'm learning.
+        </Card>
+        <Card title="Fogg" links={{name: 'Repo', url: 'http://github.com/quetcodesfire/fogg'}}>
+          Fogg is a component library with tools for rapidly building map applications. 
+        </Card>
+        <Card title="Cirrus" links={{name: 'Repo', url: 'http://github.com/quetcodesfire/cirrus'}}>
+          Cirrus is a STAC-based processing pipeline. As input, Cirrus takes a GeoJSON FeatureCollection with 1 or more STAC Items. This input is run through workflows that generate 1 or more STAC Items as output. These output Items are added to the Cirrus static STAC catalog, and are also broadcast via an SNS topic that can be subscribed to for triggering additional workflows, such as keeping a dynamic STAC catalog up to date (for example, STAC-server).
+        </Card>
+        <Card title="Stac-CMR" links={{name: 'Repo', url: 'http://github.com/quetcodesfire/stac-cmr'}}>
+          An implementation of the SpatioTemporal Asset Catalog API on top of NASA's Common Metadata Repository.
+        </Card>
       </section>
     </>
   )

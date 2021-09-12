@@ -1,0 +1,7 @@
+.contact,
+.resume {
+  text-align: center;
+}
+.iconContainer > a {
+  padding: 0 .5rem;
+}

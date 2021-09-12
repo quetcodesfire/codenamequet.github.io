@@ -21,7 +21,7 @@ export default function Navbar () {
         <Link href="#skills">Skills</Link>
         <Link href="#achievements">Achievements</Link>
         <Link href="#contact">Contact</Link>
-        <a href="https://docs.google.com/document/d/1mUP2YSwO5k1Qm1xPlhiLWBOvs31RtmM3XGHuuz6F01U/" rel="noreferrer" target="_blank">📥 Resume</a>
+        <a href="https://marquet-reid-portfolio-site.s3.amazonaws.com/Marquet_Reid_Resume.pdf" rel="noreferrer" target="_blank">📥 Resume</a>
         <a href="http://quetcodesfire.com" rel="noreferrer" target="_blank">🔥</a>
       </section>
     </div>
