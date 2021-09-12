@@ -1,0 +1,9 @@
+.name,
+.title {
+  text-align: center;
+}
+.logo {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
