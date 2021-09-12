@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+  margin-top: 5rem;
+}
+.intro {
+  width: 80%;
+  margin: 0 auto;
+}
+.cardsContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  border: black solid .2rem;
+  height: 25rem;
+  width: 30%;
+  margin-top: .5rem;
+  /* flex: 40%; */
+}

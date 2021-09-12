@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+  margin-top: 5rem;
+}
+.profilePicture {
+  max-height: 50%;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.text {
+  width: 80%;
+  margin: 0 auto;
+}

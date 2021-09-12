@@ -7,7 +7,7 @@ import logo from '../assets/images/marquet-bt.png';
 
 export default function Jumbotron() {
   return (
-    <div className="jumbotron-container">
+    <div className={styles.jumbotronContainer}>
       <h1 className={styles.name}>Marquet Reid</h1>
       <h2 className={styles.title}>Full-Stack Web Developer</h2>
       <section className={styles.logo}>
