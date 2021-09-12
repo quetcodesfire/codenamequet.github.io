@@ -1,0 +1,11 @@
+.title {
+  text-align: center;
+  margin-top: 5rem;
+}
+.text {
+  text-align: center;
+  font-size: 2rem;
+}
+.rotation > div > div > b {
+  color: red;
+}
