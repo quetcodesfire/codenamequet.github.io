@@ -10,3 +10,13 @@
 .rotation > div > div > b {
   color: red;
 }
+@media only screen and (max-width: 800px) {
+  .text {
+    text-align: left;
+    font-size: .8rem;
+    max-width: 100%;
+  }
+  .rotation > div > div > b {
+    width: 100;
+  }
+}
