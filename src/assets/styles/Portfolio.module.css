@@ -12,10 +12,9 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.card {
-  border: black solid .2rem;
-  height: 25rem;
-  width: 30%;
-  margin-top: .5rem;
-  /* flex: 40%; */
+@media only screen and (max-width: 800px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }
