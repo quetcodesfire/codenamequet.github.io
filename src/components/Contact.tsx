@@ -17,7 +17,7 @@ export default function Contact() {
     <>
     <section className={styles.contact} id="contact">
       <h2>Contact Me</h2>
-      <p>Don't hesitate to reach me at any of the links below!</p>
+      <p>Don&apos;t hesitate to reach me at any of the links below!</p>
       <div className={styles.iconContainer}>
         <a href="mailto:marquet@marquetreid.com" rel="noreferrer" target="_blank"><Image src={email} alt="black email icon" /></a>
         <a href="http://github.com/quetcodesfire" rel="noreferrer" target="_blank"><Image src={github} alt="black github icon" /></a>
