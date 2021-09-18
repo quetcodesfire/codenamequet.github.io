@@ -27,7 +27,9 @@ export default function Contact() {
     </section>
     <section className={styles.resume} id="resume">
       <p>Also check out my resume (Click the icon below)</p>
-      <a href="https://marquet-reid-portfolio-site.s3.amazonaws.com/Marquet_Reid_Resume.pdf" rel="noreferrer" target="_blank"><Image src={resume} alt="black resume icon" /></a>
+      <a href="https://marquet-reid-portfolio-site.s3.amazonaws.com/Marquet_Reid_Resume.pdf" rel="noreferrer" target="_blank">
+        <Image src={resume} alt="black resume icon" />
+      </a>
     </section>
     </>
   )

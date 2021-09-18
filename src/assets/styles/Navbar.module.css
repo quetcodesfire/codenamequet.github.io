@@ -7,7 +7,18 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.nav a:focus{
+  outline: 1px solid #fff;
+}
+.nav a:hover {
+  outline: 1px solid #fff;
+}
 .navLinks > a {
   padding: 0 .5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    font-size: .8rem;
+  }
 }

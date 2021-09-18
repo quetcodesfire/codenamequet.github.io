@@ -5,3 +5,15 @@
 .iconContainer > a {
   padding: 0 .5rem;
 }
+.iconContainer > a:focus {
+  outline: 2px solid red;
+}
+.iconContainer > a:hover {
+  outline: 2px solid red;
+}
+.resume a:focus {
+  outline: 2px solid red;
+}
+.resume a:hover {
+  outline: 2px solid red;
+}

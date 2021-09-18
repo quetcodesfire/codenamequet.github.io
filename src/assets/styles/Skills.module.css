@@ -9,7 +9,9 @@
 }
 .rotation > div > div > b {
   color: red;
+  width: 100;
 }
+
 @media only screen and (max-width: 800px) {
   .text {
     text-align: left;

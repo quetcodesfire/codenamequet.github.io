@@ -14,7 +14,7 @@ import styles from '../assets/styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div id="home">
+    <div id={styles.home}>
       <Navbar />
       <Jumbotron />
       <Bio />
