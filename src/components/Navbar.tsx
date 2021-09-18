@@ -15,7 +15,7 @@ export default function Navbar () {
         </Link>
       </section>
       <section className={styles.navLinks}>
-        <Link href="#bio">About</Link>
+        <Link href="#about">About</Link>
         <Link href="#portfolio">Portfolio</Link>
         <Link href="#skills">Skills</Link>
         <Link href="#achievements">Achievements</Link>

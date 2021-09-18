@@ -10,7 +10,7 @@ import profilePicture from '../assets/images/marquet.jpg';
 export default function Bio() {
   return (
     <>
-      <section className="bio-header">
+      <section className="bio-header" id="about">
         <h2 className={styles.title}>About Me</h2>
         <section className={styles.profilePicture}>
           <Image src={profilePicture} alt="Marquet in front of a brick wall" />

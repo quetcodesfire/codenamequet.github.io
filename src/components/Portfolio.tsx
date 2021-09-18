@@ -6,7 +6,7 @@ import styles from '../assets/styles/Portfolio.module.css'
 
 export default function Portfolio() {
   return (
-    <> 
+    <section id="portfolio"> 
       <h2 className={styles.title}>Portfolio</h2>
       <p className={styles.intro}>
         Here are some of the projects I have been working on recently during my time
@@ -30,6 +30,6 @@ export default function Portfolio() {
           An implementation of the SpatioTemporal Asset Catalog API on top of NASA&apos;s Common Metadata Repository.
         </Card>
       </section>
-    </>
+    </section>
   )
 }

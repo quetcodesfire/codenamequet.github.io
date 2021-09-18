@@ -5,7 +5,7 @@ import styles from '../assets/styles/Achievements.module.css'
 
 export default function Achievements() {
   return (
-    <section className="achievements">
+    <section className="achievements" id="achievements">
       <div className="certifications">
         <h2 className={styles.title}>Certifications</h2>
         <ul className={styles.text}>

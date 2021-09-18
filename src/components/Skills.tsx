@@ -5,7 +5,7 @@ import styles from '../assets/styles/Skills.module.css'
 
 export default function Skills() {
   return(
-    <section className="skills">
+    <section className="skills" id="skills">
       <h2 className={styles.title}>Skills</h2>
       <p className={styles.text}>
         Over the years I have gained experience in &nbsp; 
