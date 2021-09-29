@@ -16,9 +16,36 @@
 .navLinks > a {
   padding: 0 .5rem;
 }
+.mobileNavLinks {
+  font-size: 1rem;
+}
+.hamburgerMenu {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   .nav {
     font-size: .8rem;
+  }
+  .navLinks {
+    display:none;
+  }
+  .navLinksMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    position: relative;
+    width: 100%;
+  }
+  .navLinksMobile > a {
+    width: 100%;
+    text-align: center;
+    padding-top: .3rem;
+  }
+  .hamburgerMenu {
+    display: inline-block;
+    margin-right: 1rem;
   }
 }
